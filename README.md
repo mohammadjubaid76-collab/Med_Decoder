@@ -4,15 +4,28 @@
 > *Empowering patients across India to understand complex medical reports in simple Hindi, Marathi, and English.*
 
 ---
+# 🏥 MED-DECODER
+### AI-Powered Vernacular Healthcare Intelligence Platform
 
 <p align="center">
-  <strong>Making Medical Reports Understandable for Everyone.</strong>
+  <img src="https://img.shields.io/badge/BUILD_THE_AI_FOR_YOU-HACKATHON-7952B3?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AI-HEALTHCARE-1677FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-LIVE-16A34A?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Hackathon-Build%20The%20AI%20For%20YOU-blueviolet?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-AI%20%7C%20Healthcare-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" />
+  <strong>Making Medical Reports Understandable for Everyone.</strong>
+  <br />
+  <em>Breaking language barriers. Simplifying healthcare. Empowering patients.</em>
+</p>
+
+<p align="center">
+  <a href="https://med-decoder-i14o.onrender.com/">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Visit_Med--Decoder-0D9488?style=for-the-badge" />
+  </a>
+  <a href="https://github.com/mohammadjubaid76-collab/Med_Decoder">
+    <img src="https://img.shields.io/badge/GITHUB-Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
 </p>
 
 <p align="center">
@@ -25,37 +38,36 @@
 
 ---
 
-## 🌐 Live Application
+## 🌐 EXPERIENCE MED-DECODER
 
-<p align="center">
-  <a href="https://med-decoder-i14o.onrender.com/">
-    <img src="https://img.shields.io/badge/🚀_Visit_Live_Website-Med--Decoder-success?style=for-the-badge" />
-  </a>
-</p>
+Explore the deployed application and its healthcare-focused interface.
 
-| Resource | Link |
+| Platform Resource | Access |
 |---|---|
-| 🌐 Live Website | https://med-decoder-i14o.onrender.com/ |
-| 🔐 Patient Login | https://med-decoder-i14o.onrender.com/login |
-| 💻 GitHub Repository | https://github.com/mohammadjubaid76-collab/Med_Decoder |
+| 🌐 Live Website | [Open Med-Decoder](https://med-decoder-i14o.onrender.com/) |
+| 🔐 Patient Login | [Login Portal](https://med-decoder-i14o.onrender.com/login) |
+| 💻 Source Code | [GitHub Repository](https://github.com/mohammadjubaid76-collab/Med_Decoder) |
+| ⚙️ Backend Status | [Health Check](https://med-decoder-i14o.onrender.com/api/health) |
 
-**Hosting Platform:** Render
+<sub>Deployment Platform: Render</sub>
 
 ---
 
-## 📌 1. Project Overview
+## 📖 01 — PROJECT OVERVIEW
 
 **Med-Decoder** is an AI-powered healthcare report simplification platform designed to make complex medical laboratory reports easier to understand.
 
-Medical reports often contain technical terminology, abbreviations, numerical values, and clinical reference ranges that are difficult for ordinary patients to interpret.
+Medical reports often contain technical terminology, abbreviations, numerical values, and clinical reference ranges that can be difficult for ordinary patients to interpret.
 
-Med-Decoder aims to bridge this healthcare literacy gap by helping patients and caregivers understand laboratory reports through simplified explanations, multilingual support, and structured health information.
+Med-Decoder aims to bridge this healthcare literacy gap through simplified explanations, multilingual support, and structured health information.
 
-The platform focuses on making medical information more accessible in:
+### 🌍 Our Language Vision
 
-- English
-- Hindi
-- Marathi
+| Language | Support |
+|---|---|
+| 🇬🇧 English | Supported |
+| 🇮🇳 Hindi | समर्थित |
+| 🇮🇳 Marathi | समर्थित |
 
 ### 🎯 Our Mission
 
@@ -63,75 +75,79 @@ To make healthcare information more understandable, accessible, and patient-frie
 
 ---
 
-## 🚨 2. Problem Statement
+## 🚨 02 — THE PROBLEM
 
-Medical reports are essential for understanding a person's health condition, but many patients face difficulties interpreting them.
+### Understanding a medical report should not be complicated.
 
-### Major Challenges
+Patients frequently face difficulties interpreting their medical reports because of:
 
-1. **Complex Medical Terminology:** Laboratory reports contain technical words that ordinary patients may not understand.
-2. **Language Barriers:** Many people are more comfortable understanding health information in their native language.
-3. **Reference Range Confusion:** Patients often struggle to understand whether a laboratory value is normal, high, low, or borderline.
-4. **Prescription Readability:** Handwritten prescriptions can be difficult to read and interpret.
-5. **Limited Health Literacy:** Patients may not know which questions to ask their doctors after receiving their reports.
+| Challenge | Problem |
+|---|---|
+| 🧬 Medical Terminology | Technical medical words are difficult to understand. |
+| 🌐 Language Barriers | Patients may not understand medical explanations in another language. |
+| 📊 Reference Ranges | Understanding normal, high, low, and borderline values can be confusing. |
+| 💊 Prescription Readability | Handwritten prescriptions can be difficult to interpret. |
+| 🩺 Health Literacy | Patients may not know what questions to ask their doctors. |
 
-### 💡 Our Approach
-
-Med-Decoder transforms complex medical information into understandable, structured, and multilingual explanations.
+**The Core Problem:** Medical information is available, but understanding it is not always easy.
 
 ---
 
-## 💡 3. Our Solution
+## 💡 03 — OUR SOLUTION
 
 Med-Decoder provides a patient-friendly platform that helps users interpret laboratory reports and understand medical information.
 
-Our solution focuses on:
+### What We Aim to Deliver
 
-- Uploading laboratory reports.
-- Extracting and organizing report information.
-- Explaining medical terms in simpler language.
-- Presenting clinical reference-range indicators.
-- Providing multilingual explanations.
-- Generating suggested questions for doctor consultations.
-- Supporting prescription handwriting interpretation.
+- Upload supported laboratory reports.
+- Extract and organize report information.
+- Explain complex medical terms in simpler language.
+- Present clinical reference-range indicators.
+- Provide multilingual explanations.
+- Generate suggested questions for doctor consultations.
+- Support handwritten prescription interpretation.
 
-The objective is to improve patient understanding without replacing professional medical advice.
+Our objective is to improve patient understanding without replacing professional medical advice.
 
 ---
 
-## ✨ 4. Key Features
+## ✨ 04 — KEY FEATURES
 
-| Feature | Description |
+| Feature | What It Does |
 |---|---|
 | 📄 Report Upload | Upload supported laboratory report documents and images. |
-| 🧠 AI-Powered Report Decoding | Simplify complex medical information. |
-| 🌐 Multilingual Support | English, Hindi, and Marathi explanations. |
-| 📊 Clinical Range Indicators | Display Normal, High, Low, and Borderline statuses. |
-| 💊 Prescription Decoder | Support interpretation of handwritten prescription information. |
-| 🩺 Doctor Question Assistant | Generate three suggested questions for doctor consultations. |
+| 🧠 Report Decoding | Simplify complex medical information. |
+| 🌐 Multilingual Interface | English, Hindi, and Marathi explanations. |
+| 📊 Clinical Indicators | Display Normal, High, Low, and Borderline statuses. |
+| 💊 Prescription Decoder | Support interpretation of handwritten prescriptions. |
+| 🩺 Doctor Question Assistant | Generate three suggested consultation questions. |
 | 📚 Report History | Access previously decoded reports. |
-| 🔐 Authentication | Firebase-based authentication and role-aware access. |
+| 🔐 Secure Authentication | Firebase-based authentication and role-aware access. |
 | 📱 Responsive Dashboard | Modern healthcare dashboard interface. |
-| 🔔 Notifications | User-friendly notification and toast messages. |
+| 🔔 Notifications | User-friendly notifications and toast messages. |
 
 ---
 
-## 🧠 5. AI Integration & Intelligence Workflow
+## 🧠 05 — AI INTELLIGENCE & WORKFLOW
 
-Med-Decoder uses an AI-oriented report interpretation workflow to simplify medical information.
+Med-Decoder is designed around an AI-oriented report interpretation workflow.
 
-### Report Processing Workflow
+### Report Processing Pipeline
 
 ```mermaid
 flowchart TD
-    A["Patient Uploads Report"] --> B["Frontend Interface"]
-    B --> C["Backend API"]
-    C --> D["Report Processing"]
-    D --> E["Extract Medical Information"]
-    E --> F["Identify Test Values and Ranges"]
-    F --> G["AI-Assisted Explanation"]
-    G --> H["Multilingual Presentation"]
-    H --> I["Patient-Friendly Dashboard"]
+    A["📄 Patient Uploads Report"] --> B["💻 Frontend Interface"]
+    B --> C["⚙️ Backend API"]
+    C --> D["📑 Report Processing"]
+    D --> E["🔍 Extract Medical Information"]
+    E --> F["📊 Identify Values & Ranges"]
+    F --> G["🧠 AI-Assisted Explanation"]
+    G --> H["🌐 Multilingual Presentation"]
+    H --> I["🏥 Patient-Friendly Dashboard"]
+
+    style A fill:#DBEAFE,stroke:#2563EB,color:#111827
+    style G fill:#EDE9FE,stroke:#7C3AED,color:#111827
+    style I fill:#DCFCE7,stroke:#16A34A,color:#111827
 ```
 
 ### Intelligence Capabilities
@@ -147,22 +163,32 @@ flowchart TD
 
 **Google Gemini API**
 
-The backend is designed to integrate Google's Gemini API for AI-powered processing. A valid server-side Gemini API key is required to enable Gemini functionality.
+The backend is designed to integrate Google's Gemini API for AI-powered processing.
+
+<sub>Current deployment note: Gemini API is not yet configured on the live deployment. A valid server-side API key is required to enable Gemini functionality.</sub>
 
 ---
 
-## 🏗️ 6. System Architecture
+## 🏗️ 06 — SYSTEM ARCHITECTURE
 
 Med-Decoder follows a modular frontend-backend architecture.
 
 ```mermaid
 flowchart TB
-    U["Patient / User"] --> F["React Frontend"]
-    F --> A["Express Backend"]
-    A --> R["Report Processing"]
-    R --> AI["AI Processing Layer"]
-    A --> FB["Firebase Admin SDK"]
-    A --> D["Application Data Layer"]
+    U["👤 Patient / User"]
+    F["⚛️ React Frontend"]
+    A["🖥️ Express Backend"]
+    R["📑 Report Processing"]
+    AI["🧠 AI Processing Layer"]
+    FB["🔥 Firebase Admin SDK"]
+    D["🗄️ Application Data Layer"]
+
+    U --> F
+    F --> A
+    A --> R
+    R --> AI
+    A --> FB
+    A --> D
     AI --> A
     FB --> A
     D --> A
@@ -175,126 +201,234 @@ flowchart TB
 | Layer | Technology | Responsibility |
 |---|---|---|
 | Frontend | React 19 | User interface and dashboard |
-| Language | TypeScript | Application logic and type safety |
+| Programming Language | TypeScript | Application logic and type safety |
 | Build Tool | Vite | Development and production builds |
 | Styling | Tailwind CSS v4 | Responsive design system |
 | Backend | Node.js + Express | API handling and server logic |
 | AI Integration | Google Gemini API | AI-powered interpretation |
-| Authentication / Admin | Firebase | Authentication and server-side administration |
+| Authentication | Firebase | Authentication and administration |
 | Deployment | Render | Application hosting |
 | Version Control | GitHub | Source code management |
 
 ---
 
-## 📁 7. Complete Project Folder Structure
-
-Med-Decoder follows a modular and scalable project structure that separates application pages, reusable components, services, translations, shared state, datasets, and backend configuration.
+## 📁 07 — PROJECT STRUCTURE
 
 ```text
 Med_Decoder/
 │
 ├── index.html
-│   └── HTML entry point with Plus Jakarta Sans & JetBrains Mono
-│
 ├── metadata.json
-│   └── AI Studio application metadata
-│
 ├── package.json
-│   └── Project dependencies and npm scripts
-│
 ├── package-lock.json
-│   └── Locked dependency versions
-│
 ├── vite.config.ts
-│   └── Vite configuration with Tailwind CSS v4
-│
 ├── server.ts
-│   └── Node.js and Express backend server
-│
 ├── .env.example
-│   └── Environment variable template
-│
 ├── .gitignore
-│   └── Git ignored files and directories
-│
 ├── README.md
-│   └── Project documentation
-│
 ├── firebase-applet-config.json
-│   └── Firebase application configuration
-│
 ├── firestore.rules
-│   └── Firestore security rules
 │
 ├── scripts/
 │   └── set-admin.ts
-│       └── Firebase admin role configuration script
 │
 ├── public/
 │   └── assets/
-│       └── Static application assets
 │
 ├── data/
-│   └── lab_report_interpretation_sft
+│   └── lab_report_interpretation_sft.csv
+│
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── index.css
+    │
+    ├── types/
+    │   └── index.ts
+    │
+    ├── translations/
+    │   └── index.ts
+    │
+    ├── services/
+    │   └── api.ts
+    │
+    ├── data/
+    │   ├── sampleReports.ts
+    │   └── samplePrescriptions.ts
+    │
+    ├── context/
+    │   └── AppContext.tsx
+    │
+    ├── layouts/
+    │   ├── PublicLayout.tsx
+    │   └── DashboardLayout.tsx
+    │
+    ├── components/
+    │   ├── common/
+    │   ├── dashboard/
+    │   ├── report/
+    │   └── prescription/
+    │
+    └── pages/
+        ├── LandingPage.tsx
+        ├── DashboardPage.tsx
+        ├── UploadReportPage.tsx
+        ├── ReportAnalysisPage.tsx
+        ├── PrescriptionDecoderPage.tsx
+        ├── MyReportsPage.tsx
+        ├── HowItWorksPage.tsx
+        ├── AboutPage.tsx
+        ├── SettingsPage.tsx
+        └── HelpSupportPage.tsx
+```
+
+### Module Responsibilities
+
+| Directory | Purpose |
+|---|---|
+| `components/` | Reusable UI components |
+| `pages/` | Application screens and routes |
+| `layouts/` | Public and dashboard layouts |
+| `services/` | Backend API communication |
+| `context/` | Global application state |
+| `translations/` | Multilingual dictionary |
+| `types/` | TypeScript interfaces |
+| `data/` | Sample reports and prescriptions |
+| `scripts/` | Administrative utilities |
+
 ---
-8. User Workflow
-1. Access the Platform: Open the Med-Decoder website.
-2. Authentication: Register or log in to the application.
-3. Upload Report: Select and upload a supported laboratory report.
-4. Report Processing: The backend receives and processes the report.
-5. AI Interpretation: The configured AI processing workflow generates simplified explanations.
-6. Language Selection: View supported explanations in English, Hindi, or Marathi.
-7. Understand Results: Review report values and their displayed clinical statuses.
-8. Consult a Doctor: Use suggested questions to prepare for a medical appointment.
 
-🔌 9. Backend API Documentation
+## 🔄 08 — USER JOURNEY
+
+```mermaid
+flowchart LR
+    A["Open Platform"] --> B["Register / Login"]
+    B --> C["Upload Report"]
+    C --> D["Report Processing"]
+    D --> E["Review Results"]
+    E --> F["Select Language"]
+    F --> G["Understand Report"]
+    G --> H["Prepare Doctor Questions"]
+```
+
+### User Steps
+
+1. Access the Med-Decoder website.
+2. Register or log in.
+3. Upload a supported laboratory report.
+4. Process the uploaded report through the backend.
+5. View simplified explanations from the configured processing workflow.
+6. Select English, Hindi, or Marathi.
+7. Review report values and displayed clinical statuses.
+8. Use suggested questions to prepare for a medical consultation.
+
+---
+
+## 🔌 09 — BACKEND API DOCUMENTATION
+
 The frontend communicates with backend services through REST API endpoints.
-Method	Endpoint	Description
-POST	/api/reports/upload	Uploads a PDF or image document
-POST	/api/reports/decode	Processes a report and generates a simplified interpretation
-POST	/api/prescriptions/decode	Processes handwritten prescription information
-GET	/api/reports	Retrieves the user's report history
-GET	/api/reports/:id	Fetches a specific report by IDBackend Entry Point: server.ts
 
-Health Check:
+| Method | Endpoint | Description |
+|---|---|---|
+| POST | `/api/reports/upload` | Uploads a PDF or image document |
+| POST | `/api/reports/decode` | Processes a report and generates a simplified interpretation |
+| POST | `/api/prescriptions/decode` | Processes handwritten prescription information |
+| GET | `/api/reports` | Retrieves user report history |
+| GET | `/api/reports/:id` | Fetches a specific report by ID |
+| GET | `/api/health` | Checks backend and service configuration |
+
+**Backend Entry Point:** `server.ts`
+
+### Health Check
+
+```http
 GET /api/health
+```
+
 Example response:
+
+```json
 {
   "status": "ok",
   "firebaseAdminConfigured": true,
   "firebaseProjectId": "med-decoder",
-  "geminiConfigured": true
+  "geminiConfigured": false
 }
-The geminiConfigured field indicates whether an API key is configured, not whether a live Gemini request has succeeded.
+```
 
-🚀 10. Live Deployment
-Live Application:
+> **Note:** `geminiConfigured` indicates whether an API key is present in the server environment. It does not independently verify whether a live Gemini API request succeeds.
 
-https://med-decoder-i14o.onrender.com/login
+---
 
-GitHub Repository:
+## ⚙️ 10 — TECHNOLOGY STACK
 
-https://github.com/mohammadjubaid76-collab/Med_Decoder
+### Frontend Technologies
 
-Hosting Platform: Render
+<p>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" />
+</p>
 
-The backend and frontend are served through the deployed Node.js application.
+### Backend Technologies
 
-💻 11. Local Installation & Execution
-Prerequisites
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
+</p>
+
+### AI & Cloud Services
+
+<p>
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?logo=render&logoColor=black" />
+</p>
+
+### Development Tools
+
+- Visual Studio Code
+- Git and GitHub
+- npm
+- Render
+
+---
+
+## 💻 11 — INSTALLATION & LOCAL SETUP
+
+### Prerequisites
+
 - Node.js 18 or later
 - npm
 - Git
 - Firebase project
 - Google Gemini API key (for Gemini functionality)
-Step 1: Clone the repository
+
+### Step 1 — Clone Repository
+
+```bash
 git clone https://github.com/mohammadjubaid76-collab/Med_Decoder.git
-Step 2: Navigate to the project
+```
+
+### Step 2 — Open Project Directory
+
+```bash
 cd Med_Decoder
-Step 3: Install dependencies
+```
+
+### Step 3 — Install Dependencies
+
+```bash
 npm install
-Step 4: Configure environment variables
-Create a .env file in the project root.
+```
+
+### Step 4 — Configure Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
 GEMINI_API_KEY=your_gemini_api_key
 
 FIREBASE_PROJECT_ID=your_firebase_project_id
@@ -307,58 +441,131 @@ VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
 VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
 VITE_FIREBASE_APP_ID=your_firebase_app_id
 VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
-Security Note: Never upload .env or Firebase service-account JSON files to GitHub. Keep private credentials on the server.
-Step 5: Start the development server
-npm run dev
-Step 6: Build for production
-npm run build
-Step 7: Start the production server
-npm run start
+```
 
-🔐 12. Security & Privacy
+### Step 5 — Run Development Server
+
+```bash
+npm run dev
+```
+
+### Step 6 — Create Production Build
+
+```bash
+npm run build
+```
+
+### Step 7 — Start Production Server
+
+```bash
+npm run start
+```
+
+> **Security:** Never upload `.env` or Firebase service-account JSON files to GitHub. Keep private credentials on the server.
+
+---
+
+## ☁️ 12 — DEPLOYMENT
+
+Med-Decoder is deployed on **Render**.
+
+### Deployment Configuration
+
+| Configuration | Value |
+|---|---|
+| Runtime | Node.js |
+| Build Command | `npm install && npm run build` |
+| Start Command | `npm run start` |
+| Hosting Platform | Render |
+| Source Repository | GitHub |
+
+### Server Environment Configuration
+
+```env
+FIREBASE_PROJECT_ID=med-decoder
+GOOGLE_APPLICATION_CREDENTIALS=/etc/secrets/firebase-service-account.json
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+The Firebase Admin service-account JSON file should be stored as a Render Secret File.
+
+Never commit private service-account credentials to GitHub.
+
+---
+
+## 🔐 13 — SECURITY & PRIVACY
+
 Med-Decoder is designed with attention to the sensitive nature of healthcare information.
 
-Security considerations include:
+### Security Considerations
+
 - Firebase-based authentication.
 - Firebase Admin SDK for server-side administrative operations.
 - Server-side storage of private API credentials.
 - Environment-based configuration.
 - Git-based exclusion of sensitive local files.
 - Educational healthcare disclaimers.
-Important: Actual data protection, storage retention, access-control policies, and regulatory compliance must be validated before production healthcare use.
 
-🌍 13. Social Impact
+> Actual data protection, storage retention, access-control policies, and regulatory compliance must be validated before production healthcare use.
+
+---
+
+## 🌍 14 — SOCIAL IMPACT
+
+### Technology With a Human Purpose
+
 Med-Decoder aims to contribute to more accessible healthcare information.
-Expected Impact
+
+**Expected Impact**
+
 - Improves understanding of laboratory reports.
 - Reduces confusion caused by complex medical terminology.
 - Supports people who prefer regional languages.
 - Helps patients prepare meaningful questions for doctors.
 - Encourages better healthcare awareness and digital health literacy.
-Our Vision
+
+### Our Vision
+
 A future where every individual can understand their medical information, regardless of technical knowledge or language preference.
 
-🔮 14. Future Scope
+---
+
+## 🔮 15 — FUTURE ROADMAP
+
 Potential future improvements include:
-- Additional Indian regional languages.
-- Improved OCR for low-quality and scanned reports.
-- Enhanced prescription handwriting recognition.
-- Integration with more laboratory report formats.
-- Secure patient report management.
-- More advanced AI-assisted health education.
-- Accessibility improvements for elderly users.
-- Additional healthcare integrations, subject to appropriate privacy and security safeguards.
 
-👥 15. Team Sophomore
-Hackathon: Build The AI For YOU
+- 🌐 Additional Indian regional languages.
+- 📷 Improved OCR for low-quality and scanned reports.
+- ✍️ Enhanced prescription handwriting recognition.
+- 📄 Integration with more laboratory report formats.
+- 🔐 Secure patient report management.
+- 🧠 More advanced AI-assisted health education.
+- ♿ Accessibility improvements for elderly users.
+- 🏥 Additional healthcare integrations with appropriate privacy and security safeguards.
 
-Team Name: Sophomore
-Role	Team Member
-🏆 Team Leader	Mohammad Jubaid
-👨‍💻 Team Member	Nagesh NarwariyaOur Team's Objective
+---
+
+## 👥 16 — MEET THE TEAM
+
+<p align="center">
+  <strong>TEAM SOPHOMORE</strong>
+  <br />
+  <em>Build The AI For YOU Hackathon</em>
+</p>
+
+| Role | Team Member |
+|---|---|
+| 🏆 Team Leader | **Mohammad Jubaid** |
+| 👨‍💻 Team Member | **Nagesh Narwariya** |
+
+### Our Objective
+
 To develop practical AI-powered solutions that solve meaningful real-world problems through innovation, technology, and teamwork.
 
-⚠️ 16. Medical Disclaimer
+---
+
+## ⚠️ 17 — MEDICAL DISCLAIMER
+
 Med-Decoder is an educational healthcare information platform.
 
 It is not a substitute for professional medical diagnosis, treatment, or clinical decision-making.
@@ -367,24 +574,26 @@ AI-generated explanations may contain inaccuracies. Users should always consult 
 
 Do not independently start, stop, or change medication based on the platform's output.
 
-❤️ 17. Acknowledgements
-We thank the organizers of Build The AI For YOU for providing an opportunity to develop and present innovative AI-powered solutions.
+---
+
+## ❤️ 18 — ACKNOWLEDGEMENTS
+
+We sincerely thank the organizers of **Build The AI For YOU** for providing an opportunity to develop and present innovative AI-powered solutions.
 
 We also acknowledge the open-source technologies and developer tools that support this project.
 
+---
+
 <p align="center">
   <strong>Built with ❤️ by Team Sophomore</strong>
-  <br/>
-  <strong>Med-Decoder | AI for Accessible Healthcare</strong>
+  <br />
+  <strong>MED-DECODER</strong>
+  <br />
+  <em>AI for Accessible Healthcare</em>
+  <br /><br />
+  <a href="https://med-decoder-i14o.onrender.com/">
+    🌐 EXPLORE MED-DECODER
+  </a>
+  <br /><br />
+  <sub>Breaking Language Barriers • Simplifying Healthcare • Empowering Patients</sub>
 </p>
-
-
-
-
-
-
-Show less
-
-## ⚖️ Safety & Medical Disclaimer
-
-> **Med-Decoder is an educational health-literacy tool.** It does not provide medical diagnosis, treatment recommendations, or dosage instructions. Always consult a qualified healthcare professional before taking any clinical action.
