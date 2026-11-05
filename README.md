@@ -62,7 +62,6 @@ Our vision is simple:
 | 🌐 Live Website | [Open Med-Decoder](https://med-decoder-i14o.onrender.com/) |
 | 🔐 Patient Login | [Login Portal](https://med-decoder-i14o.onrender.com/login) |
 | 💻 GitHub Repository | [View Source Code](https://github.com/mohammadjubaid76-collab/Med_Decoder) |
-| ⚙️ Backend Health | [Check API Status](https://med-decoder-i14o.onrender.com/api/health) |
 
 **Deployment Platform:** Render
 
