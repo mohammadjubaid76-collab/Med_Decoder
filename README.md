@@ -1,10 +1,9 @@
-# Med-Decoder – Vernacular Lab Report Simplifier
+# 🏥 Med-Decoder — AI-Powered Vernacular Healthcare Intelligence Platform
+
 > **"अब मेडिकल रिपोर्ट पढ़ना होगा आसान!"**  
 > *Empowering patients across India to understand complex medical reports in simple Hindi, Marathi, and English.*
 
 ---
-
-# 🏥 Med-Decoder — AI-Powered Vernacular Healthcare Intelligence Platform
 
 <p align="center">
   <strong>Making Medical Reports Understandable for Everyone.</strong>
@@ -39,7 +38,6 @@
 | 🌐 Live Website | https://med-decoder-i14o.onrender.com/ |
 | 🔐 Patient Login | https://med-decoder-i14o.onrender.com/login |
 | 💻 GitHub Repository | https://github.com/mohammadjubaid76-collab/Med_Decoder |
-| ⚙️ Backend Health Check | https://med-decoder-i14o.onrender.com/api/health |
 
 **Hosting Platform:** Render
 
