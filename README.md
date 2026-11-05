@@ -3,12 +3,14 @@
 > **"अब मेडिकल रिपोर्ट पढ़ना होगा आसान!"**  
 > *Empowering patients across India to understand complex medical reports in simple Hindi, Marathi, and English.*
 
----
-# 🏥 MED-DECODER
-### AI-Powered Vernacular Healthcare Intelligence Platform
+--
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BUILD_THE_AI_FOR_YOU-HACKATHON-7952B3?style=for-the-badge" />
+  <p align="center">
+  <img src="PASTE_LOGO_IMAGE_URL_HERE" 
+       alt="Build The AI For YOU Hackathon Logo" 
+       width="260" />
+</p>
   <img src="https://img.shields.io/badge/AI-HEALTHCARE-1677FF?style=for-the-badge" />
   <img src="https://img.shields.io/badge/STATUS-LIVE-16A34A?style=for-the-badge" />
 </p>
