@@ -237,6 +237,153 @@ Med_Decoder/
 ├── data/
 │   └── lab_report_interpretation_sft
 ---
+8. User Workflow
+1. Access the Platform: Open the Med-Decoder website.
+2. Authentication: Register or log in to the application.
+3. Upload Report: Select and upload a supported laboratory report.
+4. Report Processing: The backend receives and processes the report.
+5. AI Interpretation: The configured AI processing workflow generates simplified explanations.
+6. Language Selection: View supported explanations in English, Hindi, or Marathi.
+7. Understand Results: Review report values and their displayed clinical statuses.
+8. Consult a Doctor: Use suggested questions to prepare for a medical appointment.
+
+🔌 9. Backend API Documentation
+The frontend communicates with backend services through REST API endpoints.
+Method	Endpoint	Description
+POST	/api/reports/upload	Uploads a PDF or image document
+POST	/api/reports/decode	Processes a report and generates a simplified interpretation
+POST	/api/prescriptions/decode	Processes handwritten prescription information
+GET	/api/reports	Retrieves the user's report history
+GET	/api/reports/:id	Fetches a specific report by IDBackend Entry Point: server.ts
+
+Health Check:
+GET /api/health
+Example response:
+{
+  "status": "ok",
+  "firebaseAdminConfigured": true,
+  "firebaseProjectId": "med-decoder",
+  "geminiConfigured": true
+}
+The geminiConfigured field indicates whether an API key is configured, not whether a live Gemini request has succeeded.
+
+🚀 10. Live Deployment
+Live Application:
+
+https://med-decoder-i14o.onrender.com/login
+
+GitHub Repository:
+
+https://github.com/mohammadjubaid76-collab/Med_Decoder
+
+Hosting Platform: Render
+
+The backend and frontend are served through the deployed Node.js application.
+
+💻 11. Local Installation & Execution
+Prerequisites
+- Node.js 18 or later
+- npm
+- Git
+- Firebase project
+- Google Gemini API key (for Gemini functionality)
+Step 1: Clone the repository
+git clone https://github.com/mohammadjubaid76-collab/Med_Decoder.git
+Step 2: Navigate to the project
+cd Med_Decoder
+Step 3: Install dependencies
+npm install
+Step 4: Configure environment variables
+Create a .env file in the project root.
+GEMINI_API_KEY=your_gemini_api_key
+
+FIREBASE_PROJECT_ID=your_firebase_project_id
+GOOGLE_APPLICATION_CREDENTIALS=path/to/firebase-service-account.json
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+Security Note: Never upload .env or Firebase service-account JSON files to GitHub. Keep private credentials on the server.
+Step 5: Start the development server
+npm run dev
+Step 6: Build for production
+npm run build
+Step 7: Start the production server
+npm run start
+
+🔐 12. Security & Privacy
+Med-Decoder is designed with attention to the sensitive nature of healthcare information.
+
+Security considerations include:
+- Firebase-based authentication.
+- Firebase Admin SDK for server-side administrative operations.
+- Server-side storage of private API credentials.
+- Environment-based configuration.
+- Git-based exclusion of sensitive local files.
+- Educational healthcare disclaimers.
+Important: Actual data protection, storage retention, access-control policies, and regulatory compliance must be validated before production healthcare use.
+
+🌍 13. Social Impact
+Med-Decoder aims to contribute to more accessible healthcare information.
+Expected Impact
+- Improves understanding of laboratory reports.
+- Reduces confusion caused by complex medical terminology.
+- Supports people who prefer regional languages.
+- Helps patients prepare meaningful questions for doctors.
+- Encourages better healthcare awareness and digital health literacy.
+Our Vision
+A future where every individual can understand their medical information, regardless of technical knowledge or language preference.
+
+🔮 14. Future Scope
+Potential future improvements include:
+- Additional Indian regional languages.
+- Improved OCR for low-quality and scanned reports.
+- Enhanced prescription handwriting recognition.
+- Integration with more laboratory report formats.
+- Secure patient report management.
+- More advanced AI-assisted health education.
+- Accessibility improvements for elderly users.
+- Additional healthcare integrations, subject to appropriate privacy and security safeguards.
+
+👥 15. Team Sophomore
+Hackathon: Build The AI For YOU
+
+Team Name: Sophomore
+Role	Team Member
+🏆 Team Leader	Mohammad Jubaid
+👨‍💻 Team Member	Nagesh NarwariyaOur Team's Objective
+To develop practical AI-powered solutions that solve meaningful real-world problems through innovation, technology, and teamwork.
+
+⚠️ 16. Medical Disclaimer
+Med-Decoder is an educational healthcare information platform.
+
+It is not a substitute for professional medical diagnosis, treatment, or clinical decision-making.
+
+AI-generated explanations may contain inaccuracies. Users should always consult qualified healthcare professionals before making medical decisions.
+
+Do not independently start, stop, or change medication based on the platform's output.
+
+❤️ 17. Acknowledgements
+We thank the organizers of Build The AI For YOU for providing an opportunity to develop and present innovative AI-powered solutions.
+
+We also acknowledge the open-source technologies and developer tools that support this project.
+
+<p align="center">
+  <strong>Built with ❤️ by Team Sophomore</strong>
+  <br/>
+  <strong>Med-Decoder | AI for Accessible Healthcare</strong>
+</p>
+
+
+
+
+
+
+Show less
 
 ## ⚖️ Safety & Medical Disclaimer
 
