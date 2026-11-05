@@ -4,141 +4,240 @@
 
 ---
 
-## 🏥 Overview
+# 🏥 Med-Decoder — AI-Powered Vernacular Healthcare Intelligence Platform
 
-**Med-Decoder** is a modern, professional, AI-powered healthcare SaaS platform built to bridge India's health literacy barrier. While over 80% of families in India communicate in regional languages, clinical pathology reports are routinely issued in dense technical medical English. 
+<p align="center">
+  <strong>Making Medical Reports Understandable for Everyone.</strong>
+</p>
 
-Med-Decoder enables patients and caregivers to upload laboratory reports (CBC, Lipid Profile, Liver Function, Kidney Function, Diabetes Panel) and doctor prescriptions, automatically providing:
-1. **Plain-Language Vernacular Explanations**: Seamless toggling between **English**, **हिंदी (Hindi)**, and **मराठी (Marathi)**.
-2. **Clinical Range Visualizations**: Color-coded status indicators (Normal green, High red, Low orange, Borderline yellow) with relative spectrum charts.
-3. **Three Questions to Ask Your Doctor**: Pre-calculated, medically grounded questions to bring to the physician's appointment.
-4. **Prescription Handwriting Decoder**: Optical analysis of handwritten doctor slips with confidence scoring, schedule clarification, and safety flags ("Verify with pharmacist").
-5. **Strict Safety & Health Literacy Guardrails**: Prominent educational disclaimers with zero self-treatment hallucination.
+<p align="center">
+  <img src="https://img.shields.io/badge/Hackathon-Build%20The%20AI%20For%20YOU-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-AI%20%7C%20Healthcare-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" />
+</p>
 
----
-
-## 🛠️ Technology Stack
-
-- **Framework**: React 19 + TypeScript
-- **Build Tool**: Vite
-- **Styling**: Tailwind CSS v4 with custom medical design system (#123B66 Navy Blue, #2563EB Medical Blue, #14B8A6 Teal)
-- **Routing**: React Router DOM (v7)
-- **Icons**: Lucide React
-- **Typography**: Plus Jakarta Sans & JetBrains Mono (tabular numerals)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/TypeScript-Enabled-3178C6?logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-Integrated-FFCA28?logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs&logoColor=white" />
+</p>
 
 ---
 
-## 🚀 Installation & Local Execution
+## 🌐 Live Application
 
-### Prerequisites
-- Node.js (version 18+ or 20+ recommended)
-- npm or yarn
+<p align="center">
+  <a href="https://med-decoder-i14o.onrender.com/">
+    <img src="https://img.shields.io/badge/🚀_Visit_Live_Website-Med--Decoder-success?style=for-the-badge" />
+  </a>
+</p>
 
-### Steps
+| Resource | Link |
+|---|---|
+| 🌐 Live Website | https://med-decoder-i14o.onrender.com/ |
+| 🔐 Patient Login | https://med-decoder-i14o.onrender.com/login |
+| 💻 GitHub Repository | https://github.com/mohammadjubaid76-collab/Med_Decoder |
+| ⚙️ Backend Health Check | https://med-decoder-i14o.onrender.com/api/health |
 
-1. **Clone the repository and enter the directory**:
-   ```bash
-   cd med-decoder
-   ```
-
-2. **Install all dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Start the development server**:
-   ```bash
-   npm run dev
-   ```
-   The app will run on `http://localhost:3000`.
-
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
-
-5. **Typecheck & Lint**:
-   ```bash
-   npm run lint
-   ```
+**Hosting Platform:** Render
 
 ---
 
-## 📂 Project Architecture
+## 📌 1. Project Overview
 
+**Med-Decoder** is an AI-powered healthcare report simplification platform designed to make complex medical laboratory reports easier to understand.
+
+Medical reports often contain technical terminology, abbreviations, numerical values, and clinical reference ranges that are difficult for ordinary patients to interpret.
+
+Med-Decoder aims to bridge this healthcare literacy gap by helping patients and caregivers understand laboratory reports through simplified explanations, multilingual support, and structured health information.
+
+The platform focuses on making medical information more accessible in:
+
+- English
+- Hindi
+- Marathi
+
+### 🎯 Our Mission
+
+To make healthcare information more understandable, accessible, and patient-friendly through AI-powered technology.
+
+---
+
+## 🚨 2. Problem Statement
+
+Medical reports are essential for understanding a person's health condition, but many patients face difficulties interpreting them.
+
+### Major Challenges
+
+1. **Complex Medical Terminology:** Laboratory reports contain technical words that ordinary patients may not understand.
+2. **Language Barriers:** Many people are more comfortable understanding health information in their native language.
+3. **Reference Range Confusion:** Patients often struggle to understand whether a laboratory value is normal, high, low, or borderline.
+4. **Prescription Readability:** Handwritten prescriptions can be difficult to read and interpret.
+5. **Limited Health Literacy:** Patients may not know which questions to ask their doctors after receiving their reports.
+
+### 💡 Our Approach
+
+Med-Decoder transforms complex medical information into understandable, structured, and multilingual explanations.
+
+---
+
+## 💡 3. Our Solution
+
+Med-Decoder provides a patient-friendly platform that helps users interpret laboratory reports and understand medical information.
+
+Our solution focuses on:
+
+- Uploading laboratory reports.
+- Extracting and organizing report information.
+- Explaining medical terms in simpler language.
+- Presenting clinical reference-range indicators.
+- Providing multilingual explanations.
+- Generating suggested questions for doctor consultations.
+- Supporting prescription handwriting interpretation.
+
+The objective is to improve patient understanding without replacing professional medical advice.
+
+---
+
+## ✨ 4. Key Features
+
+| Feature | Description |
+|---|---|
+| 📄 Report Upload | Upload supported laboratory report documents and images. |
+| 🧠 AI-Powered Report Decoding | Simplify complex medical information. |
+| 🌐 Multilingual Support | English, Hindi, and Marathi explanations. |
+| 📊 Clinical Range Indicators | Display Normal, High, Low, and Borderline statuses. |
+| 💊 Prescription Decoder | Support interpretation of handwritten prescription information. |
+| 🩺 Doctor Question Assistant | Generate three suggested questions for doctor consultations. |
+| 📚 Report History | Access previously decoded reports. |
+| 🔐 Authentication | Firebase-based authentication and role-aware access. |
+| 📱 Responsive Dashboard | Modern healthcare dashboard interface. |
+| 🔔 Notifications | User-friendly notification and toast messages. |
+
+---
+
+## 🧠 5. AI Integration & Intelligence Workflow
+
+Med-Decoder uses an AI-oriented report interpretation workflow to simplify medical information.
+
+### Report Processing Workflow
+
+```mermaid
+flowchart TD
+    A["Patient Uploads Report"] --> B["Frontend Interface"]
+    B --> C["Backend API"]
+    C --> D["Report Processing"]
+    D --> E["Extract Medical Information"]
+    E --> F["Identify Test Values and Ranges"]
+    F --> G["AI-Assisted Explanation"]
+    G --> H["Multilingual Presentation"]
+    H --> I["Patient-Friendly Dashboard"]
 ```
-/
-├── index.html                   # HTML entry point with Plus Jakarta Sans & JetBrains Mono
-├── metadata.json                # AI Studio application metadata
-├── package.json                 # Dependencies & scripts
-├── vite.config.ts               # Vite configuration with Tailwind CSS v4
-├── src/
-│   ├── main.tsx                 # Root render entry
-│   ├── App.tsx                  # BrowserRouter, route definitions, AppProvider
-│   ├── index.css                # Global styles and font definitions
-│   ├── types/
-│   │   └── index.ts             # TypeScript interfaces (LabReport, Prescription, Status, VernacularText)
-│   ├── translations/
-│   │   └── index.ts             # Multilingual dictionary for English, Hindi, and Marathi
-│   ├── services/
-│   │   └── api.ts               # Backend API integration service with mock fallbacks
-│   ├── data/
-│   │   ├── sampleReports.ts     # Realistic CBC, Lipid, and Diabetic Panel datasets
-│   │   └── samplePrescriptions.ts # Realistic prescription extracts with confidence scores
-│   ├── context/
-│   │   └── AppContext.tsx       # Global state for language, reports, prescriptions, and toasts
-│   ├── layouts/
-│   │   ├── PublicLayout.tsx     # Landing & public pages shell (Navbar + Footer)
-│   │   └── DashboardLayout.tsx  # SaaS workspace shell (Sidebar + Breadcrumb Header)
-│   ├── components/
-│   │   ├── common/
-│   │   │   ├── Navbar.tsx       # Top Bar Contract header
-│   │   │   ├── Sidebar.tsx      # Collapsible responsive dashboard sidebar
-│   │   │   ├── Footer.tsx       # Healthcare SaaS footer
-│   │   │   ├── LanguageSelector.tsx # Segmented language switch (EN/HI/MR)
-│   │   │   ├── StatusBadge.tsx  # Accessible normal/high/low/borderline badges
-│   │   │   ├── MedicalDisclaimer.tsx # Standardized educational disclaimer
-│   │   │   └── Toast.tsx        # Notification toast manager
-│   │   ├── dashboard/
-│   │   │   ├── DashboardCard.tsx # KPI stat card with tabular numerals
-│   │   │   └── RecentReportsTable.tsx # Historical reports list with action buttons
-│   │   ├── report/
-│   │   │   ├── UploadBox.tsx    # Drag-and-drop file uploader with preview & progress
-│   │   │   ├── ReportSummary.tsx # Clinical report overview card
-│   │   │   ├── TestResultTable.tsx # Parameter table with spectrum range bar
-│   │   │   └── DoctorQuestions.tsx # 3 Doctor questions with copy feature
-│   │   └── prescription/
-│   │       ├── PrescriptionUploadBox.tsx # Rx camera upload & sample loader
-│   │       └── PrescriptionCard.tsx # Handwriting clarity score & pharmacist flags
-│   └── pages/
-│       ├── LandingPage.tsx      # Public landing with hero visual & test preloads
-│       ├── DashboardPage.tsx    # SaaS overview with KPI statistics
-│       ├── UploadReportPage.tsx # Report upload interface
-│       ├── ReportAnalysisPage.tsx # Detailed analysis results & print export
-│       ├── PrescriptionDecoderPage.tsx # Doctor handwriting decoder
-│       ├── MyReportsPage.tsx    # Archive and search for past reports
-│       ├── HowItWorksPage.tsx   # 4-stage clinical explanation pipeline
-│       ├── AboutPage.tsx        # Vernacular mission & clinical safety
-│       ├── SettingsPage.tsx     # User language & demographic profile
-│       └── HelpSupportPage.tsx  # FAQ and patient emergency notice
-```
+
+### Intelligence Capabilities
+
+- Medical terminology simplification.
+- Interpretation of structured laboratory values.
+- Clinical reference-range status presentation.
+- Multilingual explanation generation.
+- Handwritten prescription interpretation.
+- Contextual questions for doctor consultations.
+
+### AI Technology
+
+**Google Gemini API**
+
+The backend is designed to integrate Google's Gemini API for AI-powered processing. A valid server-side Gemini API key is required to enable Gemini functionality.
 
 ---
 
-## 🔌 Backend API Integration Contract
+## 🏗️ 6. System Architecture
 
-All frontend API calls are centralized in `/src/services/api.ts`.
+Med-Decoder follows a modular frontend-backend architecture.
 
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| `POST` | `/api/reports/upload` | Uploads PDF or image document to storage |
-| `POST` | `/api/reports/decode` | Runs OCR, normalizes ranges, and generates vernacular translation |
-| `POST` | `/api/prescriptions/decode` | Transcribes doctor handwriting and flags ambiguous items |
-| `GET` | `/api/reports` | Retrieves user's decoded lab report history |
-| `GET` | `/api/reports/:id` | Fetches a specific report by ID |
+```mermaid
+flowchart TB
+    U["Patient / User"] --> F["React Frontend"]
+    F --> A["Express Backend"]
+    A --> R["Report Processing"]
+    R --> AI["AI Processing Layer"]
+    A --> FB["Firebase Admin SDK"]
+    A --> D["Application Data Layer"]
+    AI --> A
+    FB --> A
+    D --> A
+    A --> F
+    F --> U
+```
 
-*Environment Variable*: Set `VITE_API_BASE_URL` in `.env` to connect to your live backend endpoint. When running without a backend, the built-in clinical demo engine provides instantaneous testing with realistic simulated data.
+### Architecture Components
 
+| Layer | Technology | Responsibility |
+|---|---|---|
+| Frontend | React 19 | User interface and dashboard |
+| Language | TypeScript | Application logic and type safety |
+| Build Tool | Vite | Development and production builds |
+| Styling | Tailwind CSS v4 | Responsive design system |
+| Backend | Node.js + Express | API handling and server logic |
+| AI Integration | Google Gemini API | AI-powered interpretation |
+| Authentication / Admin | Firebase | Authentication and server-side administration |
+| Deployment | Render | Application hosting |
+| Version Control | GitHub | Source code management |
+
+---
+
+## 📁 7. Complete Project Folder Structure
+
+Med-Decoder follows a modular and scalable project structure that separates application pages, reusable components, services, translations, shared state, datasets, and backend configuration.
+
+```text
+Med_Decoder/
+│
+├── index.html
+│   └── HTML entry point with Plus Jakarta Sans & JetBrains Mono
+│
+├── metadata.json
+│   └── AI Studio application metadata
+│
+├── package.json
+│   └── Project dependencies and npm scripts
+│
+├── package-lock.json
+│   └── Locked dependency versions
+│
+├── vite.config.ts
+│   └── Vite configuration with Tailwind CSS v4
+│
+├── server.ts
+│   └── Node.js and Express backend server
+│
+├── .env.example
+│   └── Environment variable template
+│
+├── .gitignore
+│   └── Git ignored files and directories
+│
+├── README.md
+│   └── Project documentation
+│
+├── firebase-applet-config.json
+│   └── Firebase application configuration
+│
+├── firestore.rules
+│   └── Firestore security rules
+│
+├── scripts/
+│   └── set-admin.ts
+│       └── Firebase admin role configuration script
+│
+├── public/
+│   └── assets/
+│       └── Static application assets
+│
+├── data/
+│   └── lab_report_interpretation_sft
 ---
 
 ## ⚖️ Safety & Medical Disclaimer
