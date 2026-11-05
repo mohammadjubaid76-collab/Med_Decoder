@@ -14,7 +14,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HACKATHON-BUILD_THE_AI_FOR_YOU-7547C8?style=for-the-badge" />
+
+![Build The AI For YOU Official Hackathon Logo](./public/assets/build-the-ai-for-you-logo.jpeg)
+
+</p>
   <img src="https://img.shields.io/badge/DOMAIN-AI_×_HEALTHCARE-2563EB?style=for-the-badge" />
   <img src="https://img.shields.io/badge/DEPLOYMENT-LIVE-16A34A?style=for-the-badge" />
 </p>
